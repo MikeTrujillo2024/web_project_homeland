@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   max-width: 984px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .intro__container {
@@ -21,7 +21,7 @@
 
 .intro__quote {
   max-width: 738px;
-  margin: 0 0 10px;
+  margin: 0 auto 10px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -38,6 +38,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 1.42;
+  
 }
 
 .intro__text {
@@ -47,6 +48,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1279px) {
