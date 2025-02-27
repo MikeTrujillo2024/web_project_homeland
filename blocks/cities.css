@@ -87,50 +87,47 @@
 }
 
 .cities-main__buy-button:hover {
- /*  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%); */
- background: #012957;
+  /*  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%); */
+  background: #012957;
 }
 
-.cities-main__cities-image:hover{
+.cities-main__cities-image:hover {
   opacity: 0.5;
 }
 
-
 @media screen and (max-width: 1024px) {
-  .cities-main__wrapper{
+  .cities-main__wrapper {
     max-width: 733px;
   }
 
-  .cities-main__title{
+  .cities-main__title {
     font-size: 42px;
     line-height: 46px;
   }
 
-  .cities-main__description{
+  .cities-main__description {
     font-size: 16px;
     line-height: 26.8px;
   }
-
 }
 
-@media screen and (max-width:720px){
-  .cities-main__wrapper{
+@media screen and (max-width: 720px) {
+  .cities-main__wrapper {
     margin: 62px 0 auto;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
-    "title"
-    "subtitle"
-    "image"
+      "title"
+      "subtitle"
+      "image"
       "description"
       "button";
   }
-  
 
-  .cities-main__title{
+  .cities-main__title {
     font-size: 32px;
     line-height: 35px;
   }
-  .cities-main__subtitle-label{
+  .cities-main__subtitle-label {
     font-size: 12px;
     line-height: 14.52px;
   }
