@@ -3,7 +3,9 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   max-width: 1184px;
-  margin-top: 118px;
+  align-items: center;
+  text-align: center;
+  margin: 118px auto;
 }
 
 .gallery__image {
