@@ -1,7 +1,6 @@
 .cities-main {
   display: flex;
   flex-direction: column;
-  margin: 92px 0 auto;
   gap: 31px;
   align-items: center;
   text-align: center;
@@ -135,5 +134,27 @@
 
   .cities-main__buy-button {
     max-width: unset;
+  }
+}
+
+@media screen and (max-width: 320px){
+ 
+  .cities-main__title {
+   margin: 0 ;
+  }
+
+ 
+  .cities-main__subtitle-container{
+    margin: 0 16px ;
+  }
+
+  .cities-main__description {
+    font-size: 16px;
+    margin: 0 16px;
+  }
+
+  .cities-main__buy-button {
+    margin: 0 16px 0;
+    max-width: 90%;
   }
 }
